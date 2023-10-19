@@ -9,6 +9,7 @@ const Colors ={
     primary1100: '#ecf39e',
     primary1200: '#cad2c5',
     primary1300: '#F5F5F5',
+    primary1400: "#bcb88a"
 }
 
 export default Colors
