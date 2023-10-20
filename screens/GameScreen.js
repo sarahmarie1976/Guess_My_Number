@@ -35,6 +35,11 @@ function generateRandomBetween(min, max, exclude) {
         onGameOver();
       }
     }, [currentGuess, userNumber, onGameOver]);
+
+    useEffect(() => {
+        minBoundary = 1
+        maxBoundary = 100
+    },[])
   
     function nextGuessHandler(direction) {
       // direction => 'lower', 'greater'
